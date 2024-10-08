@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- daisy ui  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.12/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- css  -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="w-11/12 mx-auto mt-7">
+      <nav>
+        <div class="navbar bg-base-100 flex justify-between items-center">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              >
+                <li>Home</li>
+                <li>About</li>
+                <li>Destination</li>
+                <li>Search</li>
+              </ul>
+            </div>
+
+            <a class="btn btn-ghost text-3xl">P-Ticket</a>
+          </div>
+
+          <!-- Centered Navbar -->
+          <div class="navbar-center hidden lg:flex">
+            <ul
+              class="menu menu-horizontal px-1 text-xl font-medium text-gray-400"
+            >
+              <li class="ml-10">Home</li>
+              <li class="ml-10">About</li>
+              <li class="ml-10">Destination</li>
+              <li class="ml-10">Search</li>
+            </ul>
+          </div>
+
+          <div class="navbar-end">
+            <div
+              class="flex justify-center items-center gap-2 btn bg-lime-100 border-2 border-[#1DD100]"
+            >
+              <p class="text-xl font-semibold text-[#1DD100]">Bus</p>
+              <i class="fa-solid fa-van-shuttle text-xl text-[#1DD100]"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- hero container -->
+        <div
+          class="relative mt-3 bg-[url('./images/banner.png')] bg-cover bg-center h-[400px] sm:h-[500px] lg:h-[630px] w-full rounded-[32px] flex flex-col justify-center items-center"
+        >
+          <div class="flex justify-center items-center text-center">
+            <div class="">
+              <h1 class="lg:text-5xl text-2xl font-bold">
+                End-to-End Travel with
+                <p class="text-[#1DD100] mt-2" >P Paribahan</p>
+              </h1>
+              <p class="py-6 p-2 text-white">
+                Yes, you can run unit tests and view the results directly within
+                the app. The <br />
+                integrated testing features allow for a streamlined .
+              </p>
+              <div class="p-4 rounded-lg btn bg-[#1DD100]">Buy Tickets</div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main></main>
+    <footer></footer>
+  </body>
+</html>
