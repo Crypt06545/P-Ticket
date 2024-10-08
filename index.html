@@ -29,11 +29,27 @@
       referrerpolicy="no-referrer"
     />
 
+    <!-- raleway font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- inter font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- css  -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header class="w-11/12 mx-auto mt-7">
+    <header class="w-11/12 mx-auto mt-7 mb-60">
       <nav>
         <div class="navbar bg-base-100 flex justify-between items-center">
           <div class="navbar-start">
@@ -96,9 +112,9 @@
         >
           <div class="flex justify-center items-center text-center">
             <div class="">
-              <h1 class="lg:text-5xl text-2xl font-bold">
+              <h1 class="lg:text-5xl text-2xl font-bold text-white">
                 End-to-End Travel with
-                <p class="text-[#1DD100] mt-2" >P Paribahan</p>
+                <p class="text-[#1DD100] mt-2">P Paribahan</p>
               </h1>
               <p class="py-6 p-2 text-white">
                 Yes, you can run unit tests and view the results directly within
@@ -108,11 +124,90 @@
               <div class="p-4 rounded-lg btn bg-[#1DD100]">Buy Tickets</div>
             </div>
           </div>
+
+          <!-- hero cards  -->
+          <div
+            class="absolute grid grid-cols-2 lg:grid-cols-3 gap-10 mt-[590px]"
+          >
+            <div
+              class="flex justify-center items-center gap-3 p-6 border-b-4 border-[#1DD100] bg-white rounded-3xl"
+            >
+              <i class="fa-solid fa-users text-3xl text-[#1DD100]"></i>
+              <div>
+                <h1 class="text-3xl font-bold">500K+</h1>
+                <p class="font-normal text-gray-400">Regustered users</p>
+              </div>
+            </div>
+            <div
+              class="flex justify-center items-center gap-3 p-6 border-b-4 border-[#1DD100] bg-white rounded-3xl"
+            >
+              <i class="fa-solid fa-ticket text-3xl text-[#1DD100]"></i>
+              <div>
+                <h1 class="text-3xl font-bold">1.7 Lacks</h1>
+                <p class="font-normal text-gray-400">Tickets sold</p>
+              </div>
+            </div>
+            <div
+              class="flex justify-center items-center gap-3 p-6 border-b-4 border-[#1DD100] bg-white rounded-3xl"
+            >
+              <i
+                class="fa-solid fa-truck-arrow-right text-3xl text-[#1DD100]"
+              ></i>
+              <div>
+                <h1 class="text-3xl font-bold">80K+</h1>
+                <p class="font-normal text-gray-400">Rental partners</p>
+              </div>
+            </div>
+          </div>
         </div>
       </nav>
     </header>
 
-    <main></main>
+    <main>
+      <!-- offer section  -->
+      <section>
+        <div class="lg:flex">
+          <div
+            class="relative bg-[#FFBF0F] mx-auto p-10 rounded-3xl flex gap-10">
+            <div class="space-y-1">
+              <h1 class="font-black text-3xl">15% OFF</h1>
+              <p class="font-semibold text-xl">on your next purchase</p>
+              <p class="font-medium text-[#776b4a]">use by January 2024</p>
+            </div>
+            <div class="absolute ml-[212px] mt-[-40px]">
+              <img class="w-10" src="./images/cupon-devider.png" alt="" />
+            </div>
+            <div
+              class="flex p-4 flex-col justify-center items-center space-y-1 font-"
+            >
+              <h1 class="font-black text-3xl">
+                New<span class="text-2xl">15</span>
+              </h1>
+              <p class="font-medium text-[#776b4a]">Cupon Code</p>
+            </div>
+          </div>          
+          <div
+            class="relative bg-[#F78C9C] mx-auto p-10 rounded-3xl flex gap-10">
+            <div class="space-y-1">
+              <h1 class="font-black text-3xl">15% OFF</h1>
+              <p class="font-semibold text-xl">on your next purchase</p>
+              <p class="font-medium text-[#776b4a]">use by January 2024</p>
+            </div>
+            <div class="absolute ml-[212px] mt-[-40px]">
+              <img class="w-10" src="./images/cupon-devider.png" alt="" />
+            </div>
+            <div
+              class="flex p-4 flex-col justify-center items-center space-y-1 font-"
+            >
+              <h1 class="font-black text-3xl">
+                New<span class="text-2xl">15</span>
+              </h1>
+              <p class="font-medium text-[#776b4a]">Cupon Code</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
